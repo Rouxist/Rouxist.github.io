@@ -7,9 +7,18 @@ tags: []     # TAG names should always be lowercase
 author: rouxist
 
 ---
-<p float="left">
+<table>
+  <tr>
+    <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-1.png" width=200></td>
+    <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-2.png" width=200></td>
+    <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-3.png" width=200></td>
+    <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-4.png" width=200></td>
+  </tr>
+</table>
+
+<!-- <p float="left">
   <div style="text-align: left">
-    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-1.png" width="180" />
+    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-1.png" width="180"/>
     <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-2.png" width="180" />
     <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-3.png" width="180" /> 
     <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/store-image-4.png" width="180" />
@@ -17,7 +26,7 @@ author: rouxist
   <div style="text-align: center; font-style: italic; color: gray;">
     플레이스토어, 앱스토어에 업로드 된 소개 이미지 중 발췌
   </div>
-</p>
+</p> -->
 
 ## 소개
 ### **실감은 대학수학능력시험 실전 모의고사를 통한 학습 전반을 돕는 앱입니다.**  
@@ -25,7 +34,7 @@ author: rouxist
 
 ### **기타 정보**  
 * 2021년 11월 말, 수능이 끝난 직후 시작
-* 인스타그램: [https://silgam.app](https://silgam.app)  
+* [https://silgam.app](https://silgam.app)  
 * 실감은 오픈소스입니다: [https://github.com/MinSeungHyun/silgam](https://github.com/MinSeungHyun/silgam)  
 <br/>
 <hr/>
