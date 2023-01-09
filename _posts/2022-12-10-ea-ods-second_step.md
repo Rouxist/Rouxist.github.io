@@ -89,10 +89,13 @@ _팀원들의 이름은 각각 A,K,J로 표기하였습니다._
 ![12-01-8](/assets/post-img/ea/ods/second_step/12-01-8.JPG){: width="400" height="150"}  
 &nbsp;&nbsp;끝나고 조금 이른 시간(오후 4시 30분경)이었지만 저녁이나 먹고 갈까 했다가 다들 괜찮다고 하길래 진짜 먹게 되었다. 이 때 비빔국수를 먹으면서 A는 무언가 느낌이 좋지 않다는 식의 이야기를 했고, 훗날 최종 합격 후 K는 이 칼국수를 속으로 눈물을 삼키며 먹었다고 전했다. 심지어 이곳이 상당히 기름진 칼국수와 만두를 파는 곳이었기에 편치 않은 기분이 더 악화되는 듯한 느낌이기도 했다. 대략 이런 분위기를 몰고 온 면접이었다. 그런 와중에도 나는 발표일까지 '그래도 합격률이 75%인데 되지 않을까'하는 생각을 일관되게 할 뿐이었다.
 
-<div style="text-align: center">
-    <img src="/assets/post-img/ea/ods/second_step/12-01-9.jpg" width="300" /> 
-    <img src="/assets/post-img/ea/ods/second_step/12-01-10.jpg" width="358" /> 
-</div>
+<table>
+  <tr>
+    <td><img src="/assets/post-img/ea/ods/second_step/12-01-9.jpg" width="300" /></td>
+    <td><img src="/assets/post-img/ea/ods/second_step/12-01-10.jpg" width="358" /></td>
+  </tr>
+</table>
+
 그리고 온드림 소사이어티를 나오면서 기념품으로 받은 게 뭔가 했는데.. 특이하게 생긴 핸드크림이었다. 정말 바로 며칠 전에 날이 추워진 걸 느끼며 핸드크림이 있어야겠다고 생각을 했는데, 정확한 타이밍에 이걸 주신...
 
 ## 2022.12.08 (D+7)

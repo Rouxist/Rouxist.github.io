@@ -74,10 +74,12 @@ author: rouxist
 ### **기획**
 * 앱에 새로 들어갈 기능을 기획합니다.
   * 실전 모의고사 피드백 기능 개선을 위해 수능 사교육 강사 컨택을 진행하고, 개선 방안을 구체화했습니다.  
-  <div style="text-align: left">
-    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/contacting.png" width="400" />
-    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/feedback_specification.png" width="280" />
-  </div>
+  <table>
+    <tr>
+      <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/contacting.png" width=400></td>
+      <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/feedback_specification.png" width=280></td>
+    </tr>
+  </table>
   <div style="text-align: center; font-style: italic; color: gray;">좌 : 수능 강사 컨택 결과 정리, 우 : 기능 기획</div>  
 
   * **소음 재생 기능**제작에 필요한 소음 소스파일을 수집했습니다.
@@ -98,10 +100,12 @@ author: rouxist
 ### **기타**
 * 글쓰기
   * 앱 내 배너, 푸시 알림 등 앱에 사용되는 글을 작성합니다.
-  <div style="text-align: left">
-    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/notification-example.jpg" width="320" />
-    <img src="/assets/post-img/project/project_silgam/project_silgam_introduce/survey-example.png" width="400" />
-  </div>
+  <table>
+    <tr>
+      <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/notification-example.jpg" width=320></td>
+      <td><img src="/assets/post-img/project/project_silgam/project_silgam_introduce/survey-example.png" width=400></td>
+    </tr>
+  </table>
   <div style="text-align: center; font-style: italic; color: gray;">
     2022.11.17(수능 당일) 푸시 알림, 2022년 이용자 총 조사에서 발췌
   </div>  

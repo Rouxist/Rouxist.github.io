@@ -37,10 +37,14 @@ _팀원들의 이름은 각각 A,K,J로 표기하였습니다._
 
 ## 2022.11.18 (D-3, 잡담 위주)
 &nbsp;&nbsp;솔의 눈 ~~과 '연세'우유빵~~도 사먹고 하던 중에 J군이 4일차 아이디어(크리에이터와 AI의 만남)를 떠올려내서 다같이 대충 안도하던 중, 갑자기 서울대생 K가 서울대 최고의 야경을 보여준다며 새벽 1시에 우리를 어딘가로 안내했다.
-<div style="text-align: center">
-    <img src="/assets/post-img/ea/ods/first_step/11-18-1.JPG" width="300" /> 
-    <img src="/assets/post-img/ea/ods/first_step/11-18-2.JPG" width="300" /> 
-</div>
+
+<table>
+  <tr>
+    <td><img src="/assets/post-img/ea/ods/first_step/11-18-1.JPG" width=300></td>
+    <td><img src="/assets/post-img/ea/ods/first_step/11-18-2.JPG" width=300></td>
+  </tr>
+</table>
+
 (와..)  
 별마로 천문대에 갔을 때를 제외하면 살면서 별을 가장 선명하게 많이 봤던 순간이었다. 지난 학기에 영어로 이야기를 쓰는 수업에서 망원경으로 별 보기를 좋아하는 아이에 대한 스토리를 쓴 적이 있는데, 누군가에게는 그게 정말 일상일 수 있다는 게 많이 부러웠다. 또 한 편으로는 바로 전날 J가 서울대 수시 반수 불합격 통보를 받았기에, 넋놓고 별들을 올려다보는 우리에게 불어오던 바람이 더 차게 느껴지는 듯한 밤이었다.  
 &nbsp;&nbsp;이 때까진 지원 결과가 어떻게 될지 모르는 상황이었지만, 이런 추억도 만들 수 있음에 감사하며 자리로 돌아갔다.  
@@ -54,10 +58,14 @@ _팀원들의 이름은 각각 A,K,J로 표기하였습니다._
 일단 디자인이 생긴 이상 완성된 내용들만 디자인에 맞춰 넣으면 완성이니 안심이 됐다. 처음 모였을 땐 수업 계획안 내용도 다 확정이 안됐어서 오늘도 밤을 새야하는 거 아니냐 했지만 결국 11시에 해산할 수 있었다.
 
 ## 2022.11.21 (D-Day)
-<div style="text-align: center">
-    <img src="/assets/post-img/ea/ods/first_step/11-21-1.png" width="400" /> 
-    <img src="/assets/post-img/ea/ods/first_step/11-21-2.png" width="300" /> 
-</div>
+
+<table>
+  <tr>
+    <td><img src="/assets/post-img/ea/ods/first_step/11-21-1.png" width=400></td>
+    <td><img src="/assets/post-img/ea/ods/first_step/11-21-2.png" width=300></td>
+  </tr>
+</table>
+
 &nbsp;&nbsp;일요일에 모이지 못했던 K가 마침 새벽에 깨있길래 함께 작업을 진행했다. 계획안의 2일차에 들어갈 이미지 인식 모델 학습시키기 활동 예시 이미지를 K가 만들어주면 내가 받아서 ppt에 넣고, 아두이노에 필요한 예산을 함께 논의하는 등등을 했다. 그렇게 1일차 ~ 3일차 1교시까지가 완성되었다.  
 &nbsp;&nbsp;아침 6시에 자서 12시에 일어난 후 수업을 들으러 학교로 향하며 3일차 예시 영상을 뭐로 넣을지 카톡으로 논의했다. 운좋게 수업을 한 시간만에 탈출하게 돼서 잠시 주변 스타벅스로 이동하고 바로 계획안 작업을 다시 시작했는데, 이 때도 3일차 3교시 쯤이었다.  
 
