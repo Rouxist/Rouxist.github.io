@@ -37,13 +37,13 @@
   );
 
   /* Sidebar */
-  --site-title-color: rgb(113, 113, 113);
-  --site-subtitle-color: #717171;
-  --sidebar-bg: #f6f8fa;
+  --site-title-color: rgb(240, 240, 240);
+  --site-subtitle-color: rgb(230, 230, 230);
+  --sidebar-bg: #6667ab;
   --sidebar-border-color: #efefef;
-  --sidebar-muted-color: #545454;
+  --sidebar-muted-color: rgb(220,220,220);
   --sidebar-active-color: #1d1d1d;
-  --sidebar-hover-bg: rgb(223, 233, 241, 0.64);
+  --sidebar-hover-bg: rgb(223, 233, 241, 0.5);
   --sidebar-btn-bg: white;
   --sidebar-btn-color: #8e8e8e;
   --avatar-border-color: white;
@@ -58,7 +58,7 @@
   /* Home page */
   --post-list-text-color: dimgray;
   --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--sidebar-bg);
+  --btn-paginator-hover-color: rgb(50,50,50,0.25);
 
   /* Posts */
   --toc-highlight: #0550ae;
