@@ -83,4 +83,4 @@ _팀원들의 이름은 각각 A,K,J로 표기하였습니다._
 <br/>
 
 2차 면접 준비 과정 바로가기 :  
-[[온드림스쿨 21기] 온드림스쿨 다빈치교실 21기 - 2차 면접 준비 과정 (작성 중)](https://rouxist.github.io/posts/ea-ods-second_step/)
+[[온드림스쿨 21기] 온드림스쿨 다빈치교실 21기 - 2차 면접 준비 과정](https://rouxist.github.io/posts/life_ods_second-step/)
