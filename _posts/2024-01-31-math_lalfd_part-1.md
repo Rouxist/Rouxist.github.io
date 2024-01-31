@@ -28,7 +28,7 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
 - $$Ax=b$$에서 $b$가 column space 안에 있을 때 solvable하다는 것, (linearly) independent 의 정의, $$R^3$$에서 independent column 3개가 있으면 invertible이라는 것 복습 (3p)
 - **rank는 independent column의 개수를 세는 것** (4p)
 - **A=CR** (5p)  
-  ![A=CR decomposition](/assets/post-img/math/lalfd/i/1.jpeg){: width="400" }
+  ![A=CR decomposition](/assets/post-img/math/lalfd/part-1/1.jpeg){: width="400" }
   - **$C$는 $A$의 column들 중 independent한 것들만 모은 것**(이므로 A와 같은 column space를 가짐).
   - 그리고 **$R$은** $C$의 column들을 어떻게 조합해야 $A$가 나오는지에 대한 정보가 들어있는데, 이는 **rref**와 같음
   - $$A=CR$$은 **Fundamental Theorem of Linear Algebra**의 첫 번째 파트 중 dim(C(A)) = dim(C(A^T)) = r 을 증명할 수 있음. (5p)
@@ -53,7 +53,7 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
 > $$AB$$ = Sum of Rank One Matrices
 
 - $$AB$$는 row vector와 column vector의 outer product 여러 개의 합으로 볼 수 있다 (9~10p)
-  ![matrix multiplication](/assets/post-img/math/lalfd/i/2.jpeg){: width="800" }
+  ![matrix multiplication](/assets/post-img/math/lalfd/part-1/2.jpeg){: width="800" }
   - 이 rank one matrix 역시 $$C(A) = C(A^T)$$ 의 예시가 됨 (10p)
   - Matrix Multiplication을 inner product 방식으로 하든 outer product 방식으로 하든, $$(m\times n)\times(n\times p)$$의 경우에 $$mnp$$번의 곱셈을 하고, **곱셈하는 숫자들은 같은데 순서만 다름** (10p) - inner product 방식: $$mp$$번의 내적을 하는데, 그 각각에는 $n$번의 곱셈. 총 $$mnp$$ - outer product 방식: $n$개의 outer product가 있는데, 그 각각에는 $$mp$$번의 곱셈. 총 $$mnp$$
 
@@ -98,12 +98,12 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
 
   - $$N(A^T)$$를 구할 때
     - $A$에 $y$를 곱한 게 그래프로 보면 loop이 되는 $y$를 찾으면 → $$A^T⋅y=0$$을 만족 (17p)
-      ![incidence matrix](/assets/post-img/math/lalfd/i/3.jpeg){: width="300" }  
+      ![incidence matrix](/assets/post-img/math/lalfd/part-1/3.jpeg){: width="300" }  
       <span style="color:gray">이건 반대로 $$A^T⋅y=0$$ 인 $y$가 그래프에선 loop을 만든다는 순서로 풀어놓은 것이긴 함</span>
   - row가 서로 dependent인지 볼 때 elimination 말고 **loop, tree로 보는 게 beautiful way** (17p)
 
 - $$AB$$, $$A+B$$의 Rank에 대한 증명들 (19p)
-  ![further ranks](/assets/post-img/math/lalfd/i/4.jpeg){: width="500" }
+  ![further ranks](/assets/post-img/math/lalfd/part-1/4.jpeg){: width="500" }
 
 ### Problem Set
 
@@ -122,7 +122,7 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
   - 각 elimination은 행렬lu\*를 없애는 것이고, 그 rank one matrix들의 합이 $A$.
 - LU 전에 2x2 $A$에 대해 $$Ax=b$$를 **row picture**로 보는 것부터 (Figure I.4) (21p)
 
-  ![Figure I.4](/assets/post-img/math/lalfd/i/5.jpeg){: width="400" }
+  ![Figure I.4](/assets/post-img/math/lalfd/part-1/5.jpeg){: width="400" }
 
   (column picture는 figure 생략)
 
@@ -161,11 +161,11 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
       $$\because P^2=(QQ^T)(QQ^T)=Q(Q^TQ)Q^T=QQ^T=P$$  
       그래서 **orthonormal한 column들로 이루어진 $Q$로 project할 때는** $$P=QQ^T$$를 사용 (32p)
   - orthogonal matrix 중에는 **rotation matrix**, **reflection matrix**도 포함 (33p)
-    ![rotation matrix, reflection matrix의 유도](/assets/post-img/math/lalfd/i/6.jpeg){: width="500" }
+    ![rotation matrix, reflection matrix의 유도](/assets/post-img/math/lalfd/part-1/6.jpeg){: width="500" }
 
 - Orthogonal Basis = Orthogonal Axes in $$R^n$$  
   **basis가** $q$**이면** $$v=c_1q_1+c_2q_2$$ 의 $c$들을 **separately 구할 수 있음**
-  ![orthogonal bases](/assets/post-img/math/lalfd/i/7.jpeg){: width="500" }
+  ![orthogonal bases](/assets/post-img/math/lalfd/part-1/7.jpeg){: width="500" }
 - 예시로 householder reflection (34p)
 
 ### 어휘..
@@ -236,9 +236,9 @@ positive definite인지 test하는 법 5가지:
    4 & 5  \\
    \end{matrix} ]$$ 의 energy function $$E(x,y)$$에 대해  
   $$E(x,y)=5x^2+8xy+5y^2>0$$이 **bowl opening upwards**라는 말은 3차원에서 봤을 때를 말함
-  ![bowl opening upward](/assets/post-img/math/lalfd/i/8.png){: width="500" }
+  ![bowl opening upward](/assets/post-img/math/lalfd/part-1/8.png){: width="500" }
 - $$S=QΛQ^T$$는 **principal axis theorem**이라고도 함; $q$벡터들을 구하면 **그게 새로운 axis**로 쓰일 수 있음. (Figure I.9)  
-  ![새로운 axis로 바꾸는 과정](/assets/post-img/math/lalfd/i/9.jpeg){: width="500" }
+  ![새로운 axis로 바꾸는 과정](/assets/post-img/math/lalfd/part-1/9.jpeg){: width="500" }
 
 ### Problem Set
 
@@ -361,7 +361,7 @@ Q&A
 
     - **Eckart-Young Theorem에 의해 k개의 singular vector를 사용하는 게 다른 어떤 k개 벡터들의 조합보다도 데이터를 가장 많이 설명해낼 수 있다는 것이 알려짐.** (78p)  
       예를 들어 아래 그림은 k=1, m=2(# of feature)  
-      ![PCA](/assets/post-img/math/lalfd/i/10.jpeg){: width="300" }
+      ![PCA](/assets/post-img/math/lalfd/part-1/10.jpeg){: width="300" }
 
 - **effective rank**: 몇 개의 singular value를 사용할지에 대한. scree plot으로 찾을 수도 있고.. (78p)
 - <span style="color:red">rank of quarter circle one-zero matrix</span>
@@ -438,10 +438,10 @@ Q&A
   - **L2** norm: $$\|v\|_2 = \sqrt{\lvert v_1 \rvert^2 + \lvert v_2 \rvert^2 + ... + \lvert v_n \rvert^2}$$
   - **L1** norm: $$\|v\|_1 = \lvert v_1 \rvert + \lvert v_2 \rvert + ... + \lvert v_n \rvert$$
   - **max** norm: $$\|v\|_\infty=max \ of \  \lvert v_1 \rvert, ... , \lvert v_n \rvert$$ ($$l^\infty$$ norm이기도 함)
-    ![norms](/assets/post-img/math/lalfd/i/11.jpeg){: width="500" }
+    ![norms](/assets/post-img/math/lalfd/part-1/11.jpeg){: width="500" }
 
 - **The Minimum of** $$\|v\|_p$$ **on the line** $$a_1v_1+a_2v_2=1$$ (89p)\*\*
-  ![norms regularizatoin](/assets/post-img/math/lalfd/i/12.jpeg){: width="500" }
+  ![norms regularizatoin](/assets/post-img/math/lalfd/part-1/12.jpeg){: width="500" }
 
   - **L1 norm**: solution vector $$v^*$$이 **sparse**함
 
@@ -482,18 +482,18 @@ Q&A
     그래서 $$\|U\Sigma V^T\|_F=\|\Sigma\|_F=\sqrt{\sigma_1^2+...+\sigma_r^2}$$  
     (이것 덕분에 $$\|A\|_F=\sqrt{\sigma_1^2+...+\sigma_r^2}$$ 가 유도되는 것. **심지어** $$\|A\|_F^2=trace(A^TA)$$)
   - trace를 이용해 **Frobenius norm의 제곱은 그 행렬의 모든 원소 각각의 제곱의 합과 같음**을 유도 가능
-    ![frobenius norm](/assets/post-img/math/lalfd/i/13.jpeg){: width="300" }
+    ![frobenius norm](/assets/post-img/math/lalfd/part-1/13.jpeg){: width="300" }
   - **matrix norm**은 $A$를 $v$에 곱했을 때 얼마나 변화했는지, 즉 **largest growth factor를 구하는 것**
 
     - $$\|Av\| \le \|A\| \ \|v\|$$이런 식으로 식을 세우면 성립한다는 점 ($\because ||A||$가 변화량 중 가장 큰 값, 즉 $||Av||$의 값들 중 가장 큰 것과 값은 값으로 고정된 값이고, $||Av||$는 $v$에 따라 변화하는 값이니까)
       을 통해서도 $$\|AB\|\le \|A\| \ \|B\|$$ 증명 가능 (94p)
       **참고로** $$\|Av\| \le \|A\| \ \|v\|$$ **을 통해서 행렬의** $$l^1, l^{\infty}$$ **norm 값을 유도함**
     - $$\|A\|_2, \|A\|_1, \|A\|_{\infty}$$ 각각을 구하는 법은:  
-      ![calc norms](/assets/post-img/math/lalfd/i/14.jpeg){: width="400" }
+      ![calc norms](/assets/post-img/math/lalfd/part-1/14.jpeg){: width="400" }
 
       - 이유는? l2 norm은 뭐 SVD고 (그래서 **l2 norm의 값은 $U, V^T$에 영향을 받지 않음**.)
         l1 norm:  
-        ![derive l1 norm](/assets/post-img/math/lalfd/i/15.jpeg){: width="400" }  
+        ![derive l1 norm](/assets/post-img/math/lalfd/part-1/15.jpeg){: width="400" }  
         l infinity norm은.. 생략  
         l1, l infinity norm 구하는 법에 대한 증명 [^fn1]
 
@@ -547,7 +547,7 @@ data matrix의 factorization에 대한 wider view를 제시
   - $$A\approx BC$$를 찾는데.. $$B,C$$는 뭐 특별한 건 아님. $$A$의 column $a_j=c_{1j}b_1+...+c_{nj}b_n$$ 이니 이게 더 등식에 가까울수록 더 좋은 $$B,C$$인 것.
   - $C$의 column 개수 < $A$의 column 개수이다? 그럼 **dimensionality reduction**.
   - 이걸 쓰는 예시가 Facial feature extraction, **Text Mining/Document Classification** (98p)
-    ![document data example](/assets/post-img/math/lalfd/i/16.jpeg){: width="400" }
+    ![document data example](/assets/post-img/math/lalfd/part-1/16.jpeg){: width="400" }
 - Optimality Conditions (99p)
   - $$\|A-UV\|_F, \|A-BC\|_F$$ 의 값을 minimize하는 게 중요한데.. 이 내용은 잘 모르겠는
 - **Computing the Factors: Basic Methods** (99p)
@@ -589,7 +589,7 @@ data matrix의 factorization에 대한 wider view를 제시
 
 - **Matricized Form of a Tensor T** (105p)
   - CP Decomposition 하기 전에 tensor를 matricize하는 방법 소개
-    ![matricizing methods](/assets/post-img/math/lalfd/i/17.jpeg){: width="400" }
+    ![matricizing methods](/assets/post-img/math/lalfd/part-1/17.jpeg){: width="400" }
   - 위의 각각이 $$T_1, T_2, T_3$$
 - **The Khatri-Rao Product** $$A\odot B$$ (105p)
 
