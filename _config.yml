@@ -23,7 +23,7 @@ title: Gang Yong-Jin # the main title
 tagline: Self educator # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  no desc
+  Data Science, Finance
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://Rouxist.github.io"
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/profile.png
