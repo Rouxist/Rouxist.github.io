@@ -4,14 +4,14 @@ date: 2024-01-31 10:07:00 +0900
 categories:
   [Mathematics, Linear Algebra (Linear Algebra and Learning from Data)]
 tags: [Linear Algebra] # TAG names should always be lowercase
-
+image: /assets/post-img/math/lalfd/part-1/9.jpeg
 author: rouxist
 math: true
 ---
 
 [https://math.mit.edu/~gs/learningfromdata/](https://math.mit.edu/~gs/learningfromdata/)
 
-Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$, 그리고 $$ Minimize \frac{\|Ax\|^2}{\|x\|^2}$$ 에 대한 얘기가 나온다. (1p)
+Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$, 그리고 $$ Minimize \frac{\|Ax\|^2}{\|x\|^2}$$ 에 대해 다룬다. (1p)
 다른 건 선형대수 수업에서도 봤던 내용인데 $$ Minimize \frac{\|Ax\|^2}{\|x\|^2}$$ 는 뭔지 잘 모르는 상태로 시작했다.
 
 ## I.1 Multiplication Ax Using Columns of A
@@ -146,6 +146,8 @@ Part I에는 $$Ax=b$$, $$Ax=\lambda x$$, $$Av=\sigma u$$, factorization of $$A$$
 ---
 
 2024.01.03 10:00 PM
+
+### 내용
 
 \* Orthogonal matrices 라 하면 square with orthonormal columns 라 하는데.. **사실상 Orthonormal matrices 라고 하는 게 맞다고 함**(29p)
 
