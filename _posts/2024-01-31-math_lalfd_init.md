@@ -1,6 +1,6 @@
 ---
 title: "Linear Algebra and Learning from Data (Gilbert Strang)"
-date: 2024-01-31 07:30:10 +0900
+date: 2024-01-31 10:00:00 +0900
 categories:
   [Mathematics, Linear Algebra (Linear Algebra and Learning from Data)]
 tags: [Linear Algebra] # TAG names should always be lowercase
