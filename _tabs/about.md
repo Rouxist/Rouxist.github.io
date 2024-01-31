@@ -27,7 +27,7 @@ order: 1
 ## Business
 
 - [실전감각, 실감](https://rouxist.github.io/posts/project_silgam_introduce/): Co-Founder
-  - 서비스 운영 및 기획, 마케팅 담당
+  - 사업 개발, 제품 개발, 마케팅 담당
   - [yongjin@silgam.app](mailto:yongjin@silgam.app)
 
 ## Projects
@@ -37,7 +37,7 @@ order: 1
 - PyTorch
 - Notion, Slack, Figma
 
-## Activity
+## Other Activities
 
 - Google Developer Student Clubs Hanyang 3기
   - ML&DL 파트 General 멤버
