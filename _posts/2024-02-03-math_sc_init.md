@@ -8,7 +8,7 @@ author: rouxist
 math: true
 ---
 
-[http://www.math.uchicago.edu/~lawler/inprogress](http://www.math.uchicago.edu/~lawler/inprogress)
+[https://www.math.uchicago.edu/~lawler/inprogress](https://www.math.uchicago.edu/~lawler/inprogress)
 
 Stochastic Calculus라는 것이 있다는 사실을 알게 된 것이 지난 여름이었고, 그 후 2학기에는 이 책(자료..?)을 찾아만 놓고 거의 건드리지도 못했다가 겨울방학이 돼서야 읽기 시작했다.
 

@@ -8,7 +8,7 @@ author: rouxist
 math: true
 ---
 
-[http://www.math.uchicago.edu/~lawler/inprogress](http://www.math.uchicago.edu/~lawler/inprogress)
+[https://www.math.uchicago.edu/~lawler/inprogress](https://www.math.uchicago.edu/~lawler/inprogress)
 
 ## I.1 Conditional expectation
 
