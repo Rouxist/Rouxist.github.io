@@ -1,5 +1,5 @@
 ---
-title: "I. Martingales in discrete time"
+title: "1. Martingales in discrete time"
 date: 2024-02-03 17:28:46 +0900
 categories: [Mathematics, Stochastic Calculus]
 tags: [Stochastic Calculus] # TAG names should always be lowercase
@@ -10,7 +10,7 @@ math: true
 
 [https://www.math.uchicago.edu/~lawler/inprogress](https://www.math.uchicago.edu/~lawler/inprogress)
 
-## I.1 Conditional expectation
+## 1.1 Conditional expectation
 
 ---
 
@@ -58,7 +58,7 @@ Conditional Expectation은 이 책 전체를 Permeate하는 개념.
 
 - Filtration $$\mathcal{F}_n$$ 의 정의에서 비현실적일 수 있는 부분은 시간이 지나도 정보를 잃지(lost) 않는다고 보는 점 (9p)
 
-## I.2 Martingales
+## 1.2 Martingales
 
 ---
 
@@ -93,7 +93,7 @@ $$B_1=1, B_j=2^{j-1}$$ 이라 하면 $$W_n=\sum_{j=1}^{n}{B_j\Delta M_j}=\sum_{j
 - 위와 같이 $$E[M_n \vert \mathcal{F}_m] \ge M_m$$ 이면 **Submartingale**. (14p)  
   <span style="color:gray">sub, super라는 네이밍은 harmonic function과 맞춘 것</span>
 
-## I.3 Optional sampling theorem
+## 1.3 Optional sampling theorem
 
 ---
 
@@ -110,7 +110,7 @@ Optional sampling theorem 또는 Optional stopping theorem은 Discrete stochasti
 
 <span style="color:red">skip</span>
 
-## I.4 Martingale convergence theorem
+## 1.4 Martingale convergence theorem
 
 ---
 
@@ -133,7 +133,7 @@ Optional sampling theorem 또는 Optional stopping theorem은 Discrete stochasti
   - $n$ 번의 시도 후 총 성공 횟수를 $$S_n=k$$ 라 하면, posterior의 conditional expectation $$\mathbb{E}[\theta \vert S_n=k]=\frac{S_n+1}{n+2}$$ 로 polya's urn에서의 martingale과 같은 형태가 됨. ($$S_n+1$$이 빨간 공의 개수라고 본다면)
   - 그렇다면 martingale convergence theorem을 이용해 law of large number를 통해 $$\theta$$ 를 근사하는 것으로 볼 수 있음.
 
-## I.5 Square integrable martingales
+## 1.5 Square integrable martingales
 
 ---
 
@@ -157,7 +157,7 @@ Martingale의 increment가 항상 independent하지는 않지만, **sqaure integ
 <br>
 <span style="color:gray"> 증명 생략</span>
 
-## I.6 Integrable with respect to random walk
+## 1.6 Integrable with respect to random walk
 
 ---
 
@@ -174,7 +174,7 @@ $$Z_n=\sum_{j=1}^{n}{J_jX_j}=\sum_{j=1}^{n}{J_j \Delta S_j}$$
 2. Linearity: $$\sum_{j=1}^{}{(aJ_j+bK_j) \Delta S_j}=a\sum_{j=1}^{}{J_j \Delta S_j}+b\sum_{j=1}^{}{K_j \Delta S_j}$$
 3. Variance rule: $$Var\biggr[ \sum_{j=1}^{n}{J_j \Delta S_j} \biggr]=\mathbb{E}\biggr[ (\sum_{j=1}^{n}{J_j \Delta S_j})^2 \biggr]=\sigma^2\sum_{j=1}^{n}{J_j^2}$$
 
-## I.7 A maximal inequality
+## 1.7 A maximal inequality
 
 ---
 
@@ -197,7 +197,7 @@ $$\forall a > 0, \ \mathbb{P}\{\overline{M}_n \ge a \} \le a^{-2}\mathbb{E}[M_n^
 
 $$\mathbb{E}[M_n^2]<\infty \ for \ each \ n$$ 이면 martingale $$M_n$$ 은 **square integrable**이라 한다.
 
-## I.8 Exercises
+## 1.8 Exercises
 
 ---
 
