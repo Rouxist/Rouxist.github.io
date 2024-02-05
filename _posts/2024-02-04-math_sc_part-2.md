@@ -5,6 +5,7 @@ categories: [Mathematics, Stochastic Calculus]
 tags: [Stochastic Calculus] # TAG names should always be lowercase
 
 author: rouxist
+comments: true
 math: true
 ---
 
