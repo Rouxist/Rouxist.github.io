@@ -443,7 +443,7 @@ Q&A
     ![norms](/assets/post-img/math/lalfd/part-1/11.jpeg){: width="500" }
 
 - **The Minimum of** $$\|v\|_p$$ **on the line** $$a_1v_1+a_2v_2=1$$ (89p)\*\*
-  ![norms regularizatoin](/assets/post-img/math/lalfd/part-1/12.jpeg){: width="500" }
+  ![norms regularization](/assets/post-img/math/lalfd/part-1/12.jpeg){: width="500" }
 
   - **L1 norm**: solution vector $$v^*$$이 **sparse**함
 

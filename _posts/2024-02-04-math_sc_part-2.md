@@ -5,7 +5,6 @@ categories: [Mathematics, Stochastic Calculus]
 tags: [Stochastic Calculus] # TAG names should always be lowercase
 
 author: rouxist
-comments: true
 math: true
 ---
 
@@ -98,7 +97,7 @@ BM is a model of random continuous motion.
   - $$s < t$$ 이면 r.v. $$B_t - B_s$$ 는 $$r \le s$$인 $$B_r$$ 의 값들과 독립이다.
   - 1의 확률로 함수 $$t \mapsto B_t$$ 은 $t$ 에 대한 연속 함수이다.
 
-- Standard normal을 따르는 $$Z ~ N(0,1)$$ 를 이용해 $$Y = \sigma Z + m$$ 이라 나타내면 $$Y ~ N(m, \sigma^2)$$ 이듯, $$m=0, \sigma^2=1$$ 인 standard Brownian motion $$B_t$$ 를 이용해 $$Y_t = \sigma B_t + mt$$ 는 drift가 $m$ 이고 variance가 $$\sigma^2$$ 인 Brownian motion이 된다.
+- Standard normal을 따르는 $$Z \sim N(0,1)$$ 를 이용해 $$Y = \sigma Z + m$$ 이라 나타내면 $$Y \sim N(m, \sigma^2)$$ 이듯, $$m=0, \sigma^2=1$$ 인 standard Brownian motion $$B_t$$ 를 이용해 $$Y_t = \sigma B_t + mt$$ 는 drift가 $m$ 이고 variance가 $$\sigma^2$$ 인 Brownian motion이 된다.
 
 - timestep이 uncountable한 경우에 BM의 존재성에 대한 이야기 (45-46p)
 
@@ -116,7 +115,7 @@ BM is a model of random continuous motion.
 
 2024.02.04
 
-- 시뮬레이션을 위해 시간 $t$ 를 discretize 해서 $\Delta t$ 에 대해 생각해보면, $$N_k ~ N(0,1)$$에 대해  
+- 시뮬레이션을 위해 시간 $t$ 를 discretize 해서 $\Delta t$ 에 대해 생각해보면, $$N_k \sim N(0,1)$$에 대해  
   $$B_{(k+1)\Delta t}-B_{\Delta t} = \sqrt{\Delta t}N_k$$ 이다.
 - 그럼 $$\lvert \Delta B_t \rvert = \lvert \Delta B_{t+\Delta t} - B_t\rvert \approx \sqrt{\Delta t}$$ 라는 것인데
 - 이렇게 되면 도함수의 정의를 생각해봤을 때
@@ -162,6 +161,7 @@ Brownian motion은 Gaussian process 이다.
   $$\langle X \rangle _t = \lim_{n \rightarrow \infty}{\sum_{j \le tn}{\biggr[ X(\frac{j}{n}) - X(\frac{j-1}{n}) \biggr]^2}}$$
 - 즉 increment를 제곱해서 모두 더한 것인데, 이 때 increment의 제곱은 $$(\Delta x)^2 = \Delta t$$ 이므로 **$$\sum{\Delta t}$$ 와 같다.**
 - Quadratic variation은 **drift와 무관**하다.
+- Quadratic variation은 $t$ 시점까지의 **randomness의 총량** 혹은 **총 베팅 금액**으로 볼 수 있다. (Section 3.2, 97p)
 
 ### Theorem 2.8.1
 
