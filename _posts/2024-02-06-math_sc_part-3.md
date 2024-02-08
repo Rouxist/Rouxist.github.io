@@ -237,7 +237,7 @@ SDE가 다음과 같은 형태로 나타날 경우 process $$X_t$$ 는 Geometric
   $$dX_t = m(X_t)dt + \sigma(X_t)dB_t$$
 - Diffusion process는 Markov process이다.
 - diffusion의 시뮬레이션은 아래와 같은 stochastic Euler rule로 가능
-  $$X_{t+\Delta t} = X_t + m(t, X_t)\Delta t + \sigma(t, X_t) \sqrt{\Delta t}N \ $$ <span style="color:gray">where $$N \sim N(0,1)$$</span>
+  $$X_{t+\Delta t} = X_t + m(t, X_t)\Delta t + \sigma(t, X_t) \sqrt{\Delta t} N$$ <span style="color:gray">where $$N \sim N(0,1)$$</span>
 - <span style="color:red">Generator of diffusion</span> ([wikipedia](<https://en.wikipedia.org/wiki/Infinitesimal_generator_(stochastic_processes)>){:target=”\_blank”})  
   $$Lf(x) = \lim_{t \downarrow 0} \frac{\mathbb{E}^x[f(X_t)]-f(x)}{t}$$
 
