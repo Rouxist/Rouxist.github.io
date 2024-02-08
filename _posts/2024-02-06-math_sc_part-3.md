@@ -63,7 +63,7 @@ Properties of stochastic integral of simple process
 1. Linearity
 2. Martingale property
 3. Variance rule
-4. Continuity : [Random Walk의 적분](http://rouxist.github.io/posts/math_sc_part-1/#16-integrable-with-respect-to-random-walk)과 비교했을 때, Simple process의 적분은 **연속성**이 있다. Brownian Motion이 연속적이기 때문
+4. Continuity : [Random Walk의 적분](https://rouxist.github.io/posts/math_sc_part-1/#16-integrable-with-respect-to-random-walk)과 비교했을 때, Simple process의 적분은 **연속성**이 있다. Brownian Motion이 연속적이기 때문
 
 ### 3.2.3. Integration of continuous process
 
