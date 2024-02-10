@@ -187,3 +187,9 @@ print(f'{N} steps')
 print(f'mu = {MU}')
 print(f'sigma = {SIGMA}')
 ```
+
+## References
+
+---
+
+[https://youtu.be/jejjUPfaIXY?si=Dn7o1IAXv2Mlymn8](https://youtu.be/jejjUPfaIXY?si=Dn7o1IAXv2Mlymn8){:target=”\_blank”}
