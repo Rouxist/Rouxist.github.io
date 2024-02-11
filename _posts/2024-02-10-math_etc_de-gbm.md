@@ -104,8 +104,7 @@ $$S_t = S_0 e ^ {(\mu - \frac{1}{2}\sigma^2)t + \sigma W_t}$$
   </tr>
 </table>
 
-$$\mu$$ 값은 $$S_0 e ^ {(\mu - \frac{1}{2}\sigma^2)t}$$ 그래프의 형태를 바꿀 수 있으므로, 이를 이용해 **trend**를 조정할 수 있다.  
-($$\mu$$ 에 상수가 아닌 함수를 넣는 건 나중에...)
+$$\mu$$ 값은 $$S_0 e ^ {(\mu - \frac{1}{2}\sigma^2)t}$$ 그래프의 형태를 바꿀 수 있으므로, 이를 이용해 **trend**를 조정할 수 있다.
 
 ### $$\sigma$$ 의 역할
 
@@ -133,6 +132,8 @@ $$\mu$$ 값은 $$S_0 e ^ {(\mu - \frac{1}{2}\sigma^2)t}$$ 그래프의 형태를
 </table>
 
 $$\sigma$$ 값이 커질수록 $$S_0 e ^ {(\mu - \frac{1}{2}\sigma^2)t}$$ 의 그래프에서 멀어짐을 확인할 수 있다.
+
+($$\mu, \sigma$$ 에 상수가 아닌 함수를 넣는 건 나중에... Heston Model, Stochastic Volatility 등 참고)
 
 ### 코드
 
@@ -188,8 +189,21 @@ print(f'mu = {MU}')
 print(f'sigma = {SIGMA}')
 ```
 
+## GBM $$S_t$$ 의 분포
+
+- [Brownian motion의 정의](https://rouxist.github.io/posts/math_sc_part-2/#24-brownian-motion){:target=”\_blank”}에 따라 $T$ 시점에서 $$W_T \sim N(mT, \sigma^2 T)$$ 이다. 다만 보통은 Browian motion / Wiener Process를 정의할 때 $$m=0, \sigma^2=1$$ 로 하여 $$W_T \sim N(0, T)$$ 라고 본다.[^fn1]
+- GBM은 $T$ 시점에서 $$ln(\frac{S_T}{S_0}) = (\mu - \frac{1}{2}\sigma^2)T + \sigma W_T$$ 이므로, $$t=0$$ 시점부터 $$t=T$$ 시점까지의 로그수익률은 <span style="color:#6667ab"> $$ln(\frac{S_T}{S_0}) \sim N((\mu - \frac{1}{2}\sigma^2)T , \sigma^2 T )$$ </span> 이다.
+
+## 기타
+
+- 일일 변동성에 $$\sqrt{252}$$ 를 곱해서 **연간 변동성**을 계산하는 것도 $$W_T \sim N(mT, \sigma^2 T)$$ 를 통해 생각해볼 수 있다. 표준편차(변동성)는 $$\sqrt{T}$$ 에 비례한다.
+
 ## References
 
 ---
 
 [https://youtu.be/jejjUPfaIXY?si=Dn7o1IAXv2Mlymn8](https://youtu.be/jejjUPfaIXY?si=Dn7o1IAXv2Mlymn8){:target=”\_blank”}
+[https://sine-qua-none.tistory.com/238](https://sine-qua-none.tistory.com/238){:target=”\_blank”}
+[https://blog.naver.com/chunjein/100154159130](https://blog.naver.com/chunjein/100154159130){:target=”\_blank”}
+
+[^fn1]: [https://en.wikipedia.org/wiki/Wiener_process#Characterisations_of_the_Wiener_process](https://en.wikipedia.org/wiki/Wiener_process#Characterisations_of_the_Wiener_process){:target=”\_blank”}
