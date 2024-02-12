@@ -1,6 +1,6 @@
 ---
 title: "[Time-series] Stationarity, ARIMA model, Dickey-Fuller test"
-date: 2024-02-11 19:24:50 +0900
+date: 2024-02-12 18:28:40 +0900
 categories: [Mathematics, Statistics]
 tags: [Statistics] # TAG names should always be lowercase
 
