@@ -1,8 +1,8 @@
 ---
-title: "ODE와 SDE의 형태 비교, GBM 시뮬레이션"
+title: "ODE/SDE, GBM 시뮬레이션"
 date: 2024-02-10 16:37:50 +0900
-categories: [Mathematics, etc]
-tags: [] # TAG names should always be lowercase
+categories: [Mathematics, Stochastic Calculus]
+tags: [Stochastic Calculus] # TAG names should always be lowercase
 
 author: rouxist
 math: true

@@ -84,7 +84,7 @@ $$ s.e.(T) $$ : estimator $T$ 의 표준편차.
 
 - t-statistic은 분모의 분모(=분자)에 $n$ 있는 형태이다. 원래 $n$ 이 작아지면 standard error로가 작아지므로 t-statistic의 값은 커질텐데, 이는 **표본의 개수가 많을수록 t-statistic의 더 확신할 수 있다**는 직관과도 방향이 같다.
 
-  - 이는 아래의 $$s.e.(\hat{\beta})$$ 를 사용하는 경우에도 같다. $$s.e.(\hat{\beta})$$ 의 분모에는 $sqrt{n}$ 이 있고, 그 $$s.e.(\hat{\beta})$$ 는 t-statistic의 분모이므로, 결론적으로 <U>t-statistic의 분자에 n이 있다</U>. 즉 **$n$ 이 커지면 ($$s.e.(\hat{\beta})$$ 가 작아져서) t-statistic의 값도 커진다.**
+  - 이는 아래의 $$s.e.(\hat{\beta})$$ 를 사용하는 경우에도 같다. $$s.e.(\hat{\beta})$$ 의 분모에는 $$\sqrt{n}$$ 이 있고, 그 $$s.e.(\hat{\beta})$$ 는 t-statistic의 분모이므로, 결론적으로 <U>t-statistic의 분자에 $n$ 이 있다</U>. 즉 **$n$ 이 커지면 ($$s.e.(\hat{\beta})$$ 가 작아져서) t-statistic의 값도 커진다.**
 
 - 기타
   - one-tailed test, two-tailed test
