@@ -1,7 +1,7 @@
 ---
 title: "기초 집합론 내용 정리"
 date: 2024-01-31 12:08:29 +0900
-categories: [Mathematics, Real Analysis]
+categories: [Mathematics, Set Theory]
 tags: [] # TAG names should always be lowercase
 
 author: rouxist
