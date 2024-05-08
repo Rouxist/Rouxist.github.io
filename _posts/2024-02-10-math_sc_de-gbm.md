@@ -19,7 +19,7 @@ Color notation :
 <span style="color:#6667ab">explicit formula</span>
 
 - 미분방정식에 대해 공부할 때 거의 가장 처음으로 접하게 되는 ODE $$y'=y$$ 의 해는 $$y = y_0e^{t}$$ 와 같이 나타낼 수 있다.
-- 그리고, 현재 시점에서의 가격이 $$B_0$$ 인 자산의 이자율이 $r$ 일 경우 $t$ 시점이 지난 후의 가격은 <span style="color:#6667ab"> $$B_t = B_0e^{rt}$$ </span> 라고 나타낼 수 있다. (continuously compound interest)
+- 그리고, 현재 시점에서의 가격이 $$B_0$$ 인 자산의 이자율이 $r$ 일 경우 $t$ 시점이 지난 후의 가격은 <span style="color:#6667ab"> $$B_t = B_0e^{rt}$$ </span> 라고 나타낼 수 있다. (continuous compound interest)
 
   - 이는 $$\frac{dB_t}{dt} = r B_t$$ , 또는 <span style="color:#de8b16"> $$dB_t = r B_t dt$$ </span> 라는 ODE(Ordinary Differential Equation)의 해로 볼 수 있다.
 
@@ -162,11 +162,7 @@ S_t = np.exp(
 )
 
 S_t = np.vstack([np.ones(M), S_t]) # ((N * T) x M)
-# print('before cumprod')
-# print(S_t)
 S_t = S_0 * S_t.cumprod(axis = 0)
-# print('after cumprod')
-# print(S_t)
 
 
 time = np.linspace(0, T, T * N + 1)
