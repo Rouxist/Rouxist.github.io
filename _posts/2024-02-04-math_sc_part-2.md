@@ -52,7 +52,7 @@ sequence of r.v. $$(X_1, ... ,X_n)$$ 이 joint/multivariate normal distribution�
 
 각 $$\frac{1}{2}$$ 확률로 1 또는 -1이 나오는 r.v. $$X_j$$ 가 있다고 하자. 이 때 $$\mathbb{E}[X_j]=1 \cdot \frac{1}{2} + (-1) \cdot \frac{1}{2} = 0, Var[X_j]=(1 - 0)^2 \cdot \frac{1}{2} + (-1 - 0)^2 \cdot \frac{1}{2} = 1$$ 이다.
 
-기본적으로는 time increment $$\Delta t = 1$$, space increment $$\Delta x = 1$$ 이고다.  
+기본적으로는 time increment $$\Delta t = 1$$, space increment $$\Delta x = 1$$ 이다.  
 이 때 $$\Delta t = \frac{1}{N}$$ 이라 하면, **space increment** $$\pm\Delta x$$ **는** $$\frac{1}{N}$$ **만큼의 시간 변화에 대응된다.**
 
 시간이 $$1=N\Delta t$$ 만큼 변화할 때 이 process의 값은 $$W_1^{N}=\Delta x (X_1 + ... + X_N)$$ 이다.  
