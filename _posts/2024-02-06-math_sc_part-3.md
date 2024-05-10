@@ -51,7 +51,7 @@ math: true
 simple process는 마치 리만 적분에 사용되는 step function과 같은 것
 
 - 이는 베팅을 하는 시점들이 유한(finite)하다고 생각하면 되고, $$Z_t=\int_0^t{A_sdB_s}$$ 를 다음과 같이 정의할 수 있다.
-  $$Z_{t_j}=\sum_{i=0}^{j-1}{Y_i[B_{t_{i+1}}-B_{t_i}]} \quad (A_t=Y_j)$$
+  $$Z_{t_j}=\sum_{i=0}^{j-1}{Y_i[B_{t_{i+1}}-B_{t_i}]} \quad (A_t=Y_j)$$  
   ![integrating simple process](/assets/post-img/math/sc/part-3/int_simple_process.jpeg){: width="300" }  
   <span style="color:gray">$$t_j \ne j$$ 인지 아닌지 빨리 이해가 안돼서 이해하는 데에 오래 걸린 부분</span>  
   <span style="color:gray">저렇게 보는 것 자체가 르베그 적분 느낌이 난다.</span>
