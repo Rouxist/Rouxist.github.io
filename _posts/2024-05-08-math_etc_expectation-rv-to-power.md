@@ -27,4 +27,26 @@ $$
 \end{aligned}
 $$
 
+나아가서 $$\mathbb{E}[X^{2n}]$$ 에 대한 일반화도 가능하다.
+
+$$
+\begin{aligned}
+\mathbb{E}[X^{2n}] & := \int_{-\infty}^{\infty}{x^{2n}\varphi(x)}dx \\
+ & = \int_{-\infty}^{\infty}{x^{2n-1} (\textstyle \frac{\sigma \cdot x}{\sqrt{2\pi}\sigma^2}e^{-\frac{x^2}{2\sigma^2}})}dx \\
+ & = \left[ x^{2n-1} \cdot (\textstyle -\frac{\sigma}{\sqrt{2\pi}\sigma}e^{-\frac{x^2}{2\sigma^2}}) \right] _{-\infty} ^{\infty} - \int_{-\infty}^{\infty}{(2n-1)x^{2n-2} (\textstyle -\frac{\sigma}{\sqrt{2\pi}}e^{-\frac{x^2}{2\sigma^2}})}dx \\
+ & = 0 - \int_{-\infty}^{\infty}{(2n-1)x^{2n-2} (\textstyle -\frac{\sigma^2}{\sqrt{2\pi}\sigma}e^{-\frac{x^2}{2\sigma^2}})}dx \\
+ & = (2n-1)\sigma^2 \int_{-\infty}^{\infty}{x^{2n-2} (\textstyle \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{x^2}{2\sigma^2}})}dx \\
+ & = (2n-1)\sigma^2 \ \mathbb{E}[X^{2n-2}] \\
+ & = (2n-1)\sigma^2 \cdot (2n-3)\sigma^2 \ \mathbb{E}[X^{2n-4}] \\
+ & \qquad \vdots \\
+ & = (2n-1)!!\sigma^{2n}
+\end{aligned}
+$$
+
+\+ 이거 쓰다가 알았는데 일반적인 Factorial(!) 말고 Double Factorial(!!)도 존재한다.  
+$$\quad e.g. 7!! = 7 \cdot 5 \cdot 3 \cdot 1$$
+
 <br/><br/>
+
+2024.05.08
+2024.05.10
