@@ -1,5 +1,5 @@
 ---
-title: "ECO2035 게임이론과응용"
+title: "Notations, PSNE, MSNE, THPE"
 date: 2024-04-28 15:55:10 +0900
 categories: [Economics, Game Theory]
 tags: [Economics, Game Theory] # TAG names should always be lowercase
@@ -8,7 +8,11 @@ author: rouxist
 math: true
 ---
 
+2024년 1학기 ECO2035 게임이론과응용 수업 수강 내용을 정리
+
 ## Strategic Form Game
+
+---
 
 ### Notations
 
@@ -64,33 +68,61 @@ Denoted by: $$\sigma_i \in \Delta(S_i)$$
 
 #### Example (Matching Pennies)
 
-가령 Player $A$가 H, T 둘 다 $$\frac{1}{2}$$의 확률을 가지게 한다면, $$\sigma_A(H)=\sigma_A(T)=\frac{1}{2}$$
+가령 Player $A$가 H, T 두 개의 strategy를 모두 $$\frac{1}{2}$$의 확률로 수행한다면, $$\sigma_A(H)=\sigma_A(T)=\frac{1}{2}$$
+
+<br>
 
 ## Dominance, IDSDS
 
+---
+
+### Definition (Dominance)
+
+$$s_i' \in S_i \ \text{strictly dominates} \ s_i'' \in S_i \ \text{if} \ \forall s_{-i} \in S_{-i} \quad u(s_i', s_{-i}) > u(s_i'', s_{-i})$$
+
+<br>
+
+$$s_i' \in S_i \ \text{is weakly dominated by} \ s_i'' \in S_i \ \text{if} \ \forall s_{-i} \in S_{-i} \quad u(s_i', s_{-i}) \le u(s_i'', s_{-i})$$
+
+$$\text{and} \ \exists s_{-i}' \in S_{-i} \ \text{such that} \ u(s_i', s_{-i}') < u(s_i'', s_{-i}')$$
+
+### Definition (Iterative Deletion of Strictly Dominated Strategies)
+
+- Strictly dominated strategy를 반복적으로 계속해서 지운다.
+  - 다른 strategy를 strictly dominate하는 mixed strategy를 찾아내서 지울 수도 있다. strictly dominate하기만 하면 된다.
+- 지우는 순서에 상관 없이 unique한 결과로 이어져야 한다.
+- Weakly dominated strategy도 지우지 않는 이유는 unique한 결과로 이어지지 않을 수 있기 때문.
+
+<br>
+
 ## Nash Equilibrium
 
-### Trembling Hand Perfect Equilibrium
+---
 
-Motivation:
+### Definition
 
-## Extensive Form Game
+Strategy profile $$s^* = (s_i^*, s_{-i}^*) \in S$$는 다음의 조건을 만족시키면 **Nash equilibrium**이다.
 
-Motivation:
+$$s_i^* \in BR_i(s_{-i}^*)$$
 
-## Repeated Game
+이때 BR(Best Response)의 정의는:
 
-Motivation:
+$$s_i \in S_i \ \text{is best response if} \ \forall s_i' \in S_i \quad u_i(s_i, \sigma_{-i}) \ge u_i(s_i', \sigma_{-i})$$
 
-## Bayesian Game
+이고, $$\sigma_{-i}$$ 에 대한 Player $i$의 best response들의 집합을 $$BR_i(\sigma_{-i})$$ 라고 한다.
 
-Motivation:
+<br>
 
-<br><br><br>
-
-**업데이트**  
-2024.04.28
-
-## References
+## Trembling Hand Perfect Equilibrium (THPE)
 
 ---
+
+Motivation: dominated strategy가 포함된 N.E.는 제외하고 싶다
+
+(자세한 내용 생략)
+
+<br><br>
+
+**업데이트**  
+2024.04.28  
+2024.06.21
