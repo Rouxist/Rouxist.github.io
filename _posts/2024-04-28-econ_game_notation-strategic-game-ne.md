@@ -31,7 +31,7 @@ An n-player **strategic** <span style="color:gray">(normal)</span> **form game**
 
 #### Example (Prisoner's Dilemma)
 
-![prisoners_dilemma](/assets/post-img/econ/game_theory/eco2035/prisoners_dilemma.png){: width="500" }
+![prisoners_dilemma](/assets/post-img/econ/game_theory/notation-strategic-game-ne/prisoners_dilemma.png){: width="500" }
 
 - $$N = \{1,2\}$$ $$\quad$$
 - $$S_A = S_B = \{\text{Stay silent, Betray}\}$$ $$\quad$$
@@ -59,7 +59,7 @@ $$S_i$$의 요소를 Pure Strategy라고 한다.
 
 ### Definition (Mixed Strategy)
 
-player $i$의 strategy space $$S_i$$의 요소들에 대한 probability distribution을 Mixed Strategy이라 한다.  
+player $i$의 strategy space $$S_i$$의 요소들(=Pure Strategies)에 대한 probability distribution을 Mixed Strategy이라 한다.  
 Denoted by: $$\sigma_i \in \Delta(S_i)$$
 
 - Finite $$S_i$$에 대해서는 $$\sigma_i : S_i \rightarrow [0,1] \quad s.t. \sum_{s_i \in S_i}\sigma_i(s_i)=1$$ 이다.
