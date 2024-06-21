@@ -1,6 +1,6 @@
 ---
 title: "Extensive Form Game, SPNE"
-date: 2024-06-22 00:30:42 +0900
+date: 2024-06-22 01:03:42 +0900
 categories: [Economics, Game Theory]
 tags: [Economics, Game Theory] # TAG names should always be lowercase
 
