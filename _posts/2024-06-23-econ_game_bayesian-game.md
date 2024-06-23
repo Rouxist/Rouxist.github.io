@@ -42,9 +42,9 @@ math: true
 
    위 식의 $p(t_2=H \vert t_1=H), p(t_2=L \vert t_1=H)$ 는 Bayes' rule로 구하면
 
-   - $p(t_2=H \vert t_1=H) = \frac{p(t_2=H \ \cap \ t_1=H)}{p(t_1=H)} = \frac{\frac{1}{2}\alpha}{\frac{1}{2}\alpha+\frac{1}{2}(1-\alpha)} = \alpha$
+   - $p(t_2=H \vert t_1=H) = \frac{p(t_2=H, t_1=H)}{p(t_1=H)} = \frac{p(t_2=H, t_1=H)}{p(t_1=H, t_2=H)+p(t_1=H, t_2=L)} =\frac{\frac{1}{2}\alpha}{\frac{1}{2}\alpha+\frac{1}{2}(1-\alpha)} = \alpha$
 
-   - $p(t_2=L \vert t_1=H) = \frac{p(t_2=H \ \cap \ t_1=H)}{p(t_1=H)} = \frac{\frac{1}{2}(1-\alpha)}{\frac{1}{2}\alpha+\frac{1}{2}(1-\alpha)} = (1-\alpha)$
+   - $p(t_2=L \vert t_1=H) = \frac{p(t_2=L, t_1=H)}{p(t_1=H)} = \frac{p(t_2=L, t_1=H)}{p(t_1=H, t_2=H)+p(t_1=H, t_2=L)} = \frac{\frac{1}{2}(1-\alpha)}{\frac{1}{2}\alpha+\frac{1}{2}(1-\alpha)} = (1-\alpha)$
 
    이제 대입해서 payoff를 극대화하는 optimization 식을 써내면
 
