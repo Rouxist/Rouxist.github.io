@@ -25,7 +25,7 @@ math: true
 
   - $$S := \prod_{k \in N} S_k, \ S_{-i} = \prod_{k \ne N} S_k$$ $$\quad$$
 
-### Definition
+### Definition (Strategic Form Game)
 
 An n-player **strategic** <span style="color:gray">(normal)</span> **form game** $G$ is an $n$-tuple $$\{(S_1,u_1),...,(S_n,u_n)\}$$.
 
@@ -68,7 +68,7 @@ Denoted by: $$\sigma_i \in \Delta(S_i)$$
 
 #### Example (Matching Pennies)
 
-가령 Player $A$가 H, T 두 개의 strategy를 모두 $$\frac{1}{2}$$의 확률로 수행한다면, $$\sigma_A(H)=\sigma_A(T)=\frac{1}{2}$$
+가령 Player $A$가 H, T 두 개의 strategy를 모두 $$\frac{1}{2}$$의 확률로 수행한다면, $$\sigma_A(H)=\sigma_A(T)=\frac{1}{2}$$ 이고, $\sigma_A = (\frac{1}{2}, \frac{1}{2})$ 와 같이 나타낼 수 있다.
 
 <br>
 
