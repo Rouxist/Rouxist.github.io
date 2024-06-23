@@ -14,7 +14,7 @@ math: true
 
 - Extensive Form Game을 통해 **Imperfect information**이 존재하는, 즉 하나의 information set에 여러 개의 노드가 존재하는(=player가 상대방의 이전 action을 모르는) game을 다뤘다.
 - 이번에는 **Incmplete information**이 존재한다. 각 player들에게 **Type**이라는 새로운 속성이 생긴다.
-  - 각 유저들의 type을 나타내는 새로운 component $T={T_i}_\{i \in N\}$ 를 도입하게 되고
+  - 각 유저들의 type을 나타내는 새로운 component $$T = \{ T_i \}_{i \in N}$$ 를 도입하게 되고
   - payoff는 $u: S \times T \rightarrow \mathbb{R}^n$ 와 같이 표현할 수 있다.
 
 ### Bayesian Nash Equilibrium (BNE)
